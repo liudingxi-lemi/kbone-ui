@@ -77,13 +77,9 @@ const install = function(Vue, opts = {}) {
     Vue.prototype.$ismp = typeof Page === 'function' && typeof Component === 'function'
 }
 
-/* remove by liudx
-if (typeof window !== 'undefined' && window.Vue) {
-    window.Vue.use(WeUI)
-}
-*/
+// changed by liudx
 
-export default {
+const WeUI = {
     version: '0.5.9',
     ismp,
     install,
@@ -115,3 +111,10 @@ export default {
     KMovableArea,
     KMovableView,
 }
+
+
+if (typeof window !== 'undefined' && window.Vue) {
+    window.Vue.use(WeUI)
+}
+
+export default WeUI

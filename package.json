@@ -1,7 +1,7 @@
 {
-  "name": "kbone-ui",
+  "name": "kbone-ui-ldx",
   "version": "0.6.3",
-  "description": "Weui component Library for kbone-ui",
+  "description": "Weui component Library for kbone-ui, changed by liudx",
   "main": "lib/index.js",
   "scripts": {
     "dev:web": "cross-env NODE_ENV=development webpack-dev-server --inline --progress --config build/webpack.dev.config.js",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wechat-miniprogram/kbone-ui.git"
+    "url": "https://github.com/liudingxi-lemi/kbone-ui"
   },
   "keywords": [
     "kbone",
