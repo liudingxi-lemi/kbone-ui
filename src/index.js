@@ -77,10 +77,11 @@ const install = function(Vue, opts = {}) {
     Vue.prototype.$ismp = typeof Page === 'function' && typeof Component === 'function'
 }
 
-
+/* remove by liudx
 if (typeof window !== 'undefined' && window.Vue) {
     window.Vue.use(WeUI)
 }
+*/
 
 export default {
     version: '0.5.9',

@@ -1,13 +1,13 @@
-# kbone-ui
+# 修改
 
-`kbone-ui` 是一个能同时支持 小程序(kbone) 和 vue 框架开发的多端 UI 库。
+注释掉了的代码 @ src/index.js
+```js
+if (typeof window !== 'undefined' && window.Vue) {
+    window.Vue.use(WeUI)
+}
+```
 
-
-## 特性
-
-* 既可以基于 `Kbone` 同时开发小程序和 H5，也可以单独使用开发 H5 应用。
-* 支持以 Vue 语法来支持 H5 端和小程序端运行
-* 对齐 [微信weui](https://weui.io) 样式组件
+原因： 不知道为什么， WeUI 居然是未定义的
 
 
 ## 相关链接
