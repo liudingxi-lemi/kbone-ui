@@ -20,7 +20,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 下载 kbone-ui
 
 ```sh
-npm install kbone-ui  
+npm install kbone-ui-ldx  
 ```
 
 加载全部组件内容，并引入 weui 样式库：
